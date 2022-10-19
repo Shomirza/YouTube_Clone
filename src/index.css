@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: black;
+  overflow: hidden;
+}
+body::-webkit-scrollbar{
+  display: none;
+}
+.header{
+  background-color: #202020;
+  height: 60px;
+}
+.logtube{
+  width: 120px;
+  height: 30px;
+  margin: 0 10px;
+}
+.search{
+  height: 100%;
+}
+.search .inp-search{
+  background-color: black;
+  border: 1px solid rgb(73, 73, 73);
+  padding-left: 10px;
+  outline: none;
+  height: 65%;
+}
+.search .inp-search2{
+  position: relative;
+  right: 7.5%;
+  height: 65%;
+  width: 50px;
+  background-color: #414141;
+}
+.search .mic{
+  position: relative;
+  right: 6%;
+  border-radius: 60%;
+  background-color: black;
+  height: 65%;
+  width: 40px;
+}
+.side3{
+  width: 20%;
+}
+.icon1{
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly !important;
+}
+.ibslogo{
+  width: 40px;
+  border-radius: 50%;
+}
+.sidebar{
+  width: 20%;
+  height: 91vh;
+  transition: .4s;
+  z-index: 5;
+  position: absolute;
+  left: 0;
+}
+.baricon{
+  margin: 0 20px;
+  margin-top: 25px;
+  font-size: 22px;
+  font-weight: 300;
+}
+.iconn{
+  margin-right: 15px;
+}
+.head{
+  width: 95%;
+  height: 73vh;
+}
+.coment{
+  width: 95%;
+}
+.videolist{
+  width: 32%;
+  height: 91vh;
+  overflow-y: scroll;
+}
+.videolist::-webkit-scrollbar{
+  width: 5px;
+}
+.videolist::-webkit-scrollbar-thumb{
+  background-color: #414141;
+  border-radius: 10px;
+}
+.headd{
+  height: 91vh;
+  width: 68%;
+}
+.pic{
+  height: 120px;
+}
+.ptitle{
+  margin-left: 8px;
+}
+.ytube{
+  width: 10000%;
+  height: 92vh;
+}
